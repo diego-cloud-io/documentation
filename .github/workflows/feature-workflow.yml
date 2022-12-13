@@ -1,0 +1,9 @@
+name: feature-workflow
+
+on:
+  pull_request:
+    types: [opened, reopened, labeled, synchronize, edited]
+    branches:
+      - main
+
+
