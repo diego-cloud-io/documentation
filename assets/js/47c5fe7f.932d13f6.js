@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdiego=self.webpackChunkdiego||[]).push([[5274],{294:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/diego","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

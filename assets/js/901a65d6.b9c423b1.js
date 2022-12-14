@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdiego=self.webpackChunkdiego||[]).push([[920],{5227:e=>{e.exports=JSON.parse('{"label":"kubernetes","permalink":"/documentation/blog/tags/kubernetes","allTagsPath":"/documentation/blog/tags","count":1}')}}]);
