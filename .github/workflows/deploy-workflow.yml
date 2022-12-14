@@ -6,12 +6,12 @@ on:
       - main
     paths:
       - '.github/workflows/deploy-workflow.yml'
-      - 'website/**'
+      - './**'
   pull_request:
     types: [opened, reopened, labeled, synchronize, edited]
     paths:
       - '.github/workflows/deploy-workflow.yml'
-      - 'website/**'
+      - './**'
 
 jobs:
   build-and-deploy:
@@ -20,9 +20,6 @@ jobs:
       contents: write
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
-    defaults:
-      run:
-        working-directory: website
     steps:
       - name: Checkout repo and setup node 🛎️
         uses: actions/checkout@v3
@@ -39,7 +36,7 @@ jobs:
         # if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./website/build
+          publish_dir: ./build
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
           full_commit_message: ${{ github.event.head_commit.message }}
