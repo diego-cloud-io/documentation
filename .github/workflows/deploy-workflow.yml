@@ -5,10 +5,13 @@ on:
     branches:
       - main
     paths:
-      - '.github/workflows/deploy.yml'
+      - '.github/workflows/deploy-workflow.yml'
       - 'website/**'
   pull_request:
     types: [opened, reopened, labeled, synchronize, edited]
+    paths:
+      - '.github/workflows/deploy-workflow.yml'
+      - 'website/**'
 
 jobs:
   build-and-deploy:
@@ -40,5 +43,4 @@ jobs:
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
           full_commit_message: ${{ github.event.head_commit.message }}
-          publish_branch: ${{ github.ref }}
           # enable_jekyll: false
