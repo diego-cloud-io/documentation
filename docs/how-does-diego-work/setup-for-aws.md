@@ -8,7 +8,7 @@ sidebar_position: 4
 
 The Cloudformation stack provisions:
 
-- A R53 hosted zone for your organisation’s Diego Hub - diego.<organisation domain name>. 
+- A R53 hosted zone for your organisation’s Diego Hub - `diego.<organisation domain name>`. 
 
 - Various IAM roles related to:
 
