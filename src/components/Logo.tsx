@@ -5,7 +5,6 @@ export default function Logo({
   color = "dark",
   ...props
 }: Omit<ComponentProps<"svg">, "color"> & { color?: "dark" | "light" }) {
-  console.log(color);
   return (
     <svg
       viewBox="0 0 3126 1156"
