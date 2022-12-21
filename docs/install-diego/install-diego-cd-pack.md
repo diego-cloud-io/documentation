@@ -12,6 +12,6 @@ Here's 5 Easy Commands to setup Diego CD Pack with Diego CLI 🚀
 4. `diego setup aws`
 5. `diego install diego-core`
 
-(we can link these...)
+Please ensure to follow next steps, to deep-dive into details for these.
 
  

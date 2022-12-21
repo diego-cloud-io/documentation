@@ -19,7 +19,7 @@ Here are some tools used at a high level:
 
 Here are open source tools deployed as part **Diego-Core** in your Kubernetes cluster as part of a Helm Chart:
 
-- [argocd](https://argo-cd.readthedocs.io/en/stable/)
+- [Argo CD](https://argo-cd.readthedocs.io/en/stable/)
     > Declarative, GitOps continuous delivery tool for Kubernetes.
 
 - [External DNS](https://github.com/kubernetes-sigs/external-dns) 
