@@ -48,4 +48,4 @@ Please ensure you have the following information to hand:
 
 • AWS EKS Cluster OIDC Provider URL
 
-The URL for the EKS Cluster can be obtained from your AWS Console under OpenID Connect provider URL under the Overview for your Kubernetes cluster. e.g. https://oidc.eks.eu-west-2.amazonaws.com/id/<32 character alphanumeric string>  (we can make this info available on hover)
+The URL for the EKS Cluster can be obtained from your AWS Console under OpenID Connect provider URL under the Overview for your Kubernetes cluster. e.g. `https://oidc.eks.eu-west-2.amazonaws.com/id/<32 character alphanumeric string>`

@@ -11,7 +11,7 @@ Estimated time: 2 minutes
 
 Checks:
 
-✔️  `diego-default-project` and `diego-tooling` are setup in your Github Organisation repository.
-✔️  In `diego-default-project` your organisations domain appears in the `applications` folder files and your organisation's name appears in the `root` folder files.
-✔️  In `diego-tooling` your organisations domain and name, as well as your cluster name and AWS account id should have populated across files in the diego-core folder. Please note `R53_ZONE_ID` is updated in a further step. 
+✔️  `diego-default-project` and `diego-tooling` are setup in your Github Organisation repository. <br/> 
+✔️  In `diego-default-project` your organisations domain appears in the `applications` folder files and your organisation's name appears in the `root` folder files. <br/> 
+✔️  In `diego-tooling` your organisations domain and name, as well as your cluster name and AWS account id should have populated across files in the diego-core folder. Please note `R53_ZONE_ID` is updated in a further step. <br/> 
 

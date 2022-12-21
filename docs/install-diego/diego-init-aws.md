@@ -12,12 +12,16 @@ sidebar_position: 6
 Command will request for:
 
 • AWS account ID
+- Related to where AWS EKS cluster is hosted.
 
-• AWS region
+• AWS Region
+- AWS region where AWS EKS cluster is hosted.
 
 • AWS EKS Cluster Name
+- Name for AWS EKS cluster.
 
 • AWS EKS Cluster OIDC Provider URL
+- The URL for the EKS Cluster can be obtained from your AWS Console under OpenID Connect provider URL under the Overview for your Kubernetes cluster. e.g. `https://oidc.eks.eu-west-2.amazonaws.com/id/<32 character alphanumeric string>`
 
 Checks:
 

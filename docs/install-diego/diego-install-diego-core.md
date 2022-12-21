@@ -66,10 +66,10 @@ aws-lb-controller           OutOfSync     Healthy
 
 Checks:
 
-✔️  Once this is setup, the subdomains related to diego should be accessible on the clients domain e.g. 
-• `hub.diego.<your organisation's domain>`
-• `argocd.diego.<your organisation's domain>`
-✔️ Go to [DNS checker](https://dnschecker.org/) to check these domains are accessible
-✔️ Check you can login to Argo CD
+✔️  Once this is setup, the subdomains related to diego should be accessible on the clients domain e.g. <br/> 
+• `hub.diego.<your organisation's domain>` <br/> 
+• `argocd.diego.<your organisation's domain>` <br/> 
+✔️ Go to [DNS checker](https://dnschecker.org/) to check these domains are accessible <br/> 
+✔️ Check you can login to Argo CD <br/> 
 ✔️ Check you can access Diego Hub. 
 
