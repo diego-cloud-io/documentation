@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdiego=self.webpackChunkdiego||[]).push([[5433],{77:(e,t,l)=>{l.r(t),l.d(t,{default:()=>s});var n=l(7294),a=l(3285);function s(){return n.createElement(a.Z,null,n.createElement("h1",null,"Test standalone page"),n.createElement("p",null,"This is a test"))}}}]);
