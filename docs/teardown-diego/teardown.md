@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Teardown Diego setup for your Organisation
+# Teardown Diego setup
 
 Given you have set-up Diego in an isolated AWS EKS cluster with [these instructions for creating an eks cluster with eksctl](../getting-started/create-eks-cluster), here are some steps which can be followed for decomissioning Diego:
 

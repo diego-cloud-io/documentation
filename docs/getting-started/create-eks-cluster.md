@@ -11,7 +11,7 @@ Install software to set the aws context for running commands to create cluster- 
 
 Install [eksctl](https://github.com/weaveworks/eksctl) - this is simple CLI tool for creating clusters. Further docs for eksctl are available [here](https://eksctl.io/introduction/#getting-started).
 
-## Creating EKS Cluster with node**
+## Creating EKS Cluster with node
 
 1. Create EKS cluster with aws context: <br/> 
 
