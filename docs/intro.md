@@ -8,11 +8,15 @@ Diego is a fully integrated platform which aims to streamline the development pr
 
 Diego is based on the GitOps principle that focuses on keeping the deployment specification and application desired state in Git. The project’s special GitOps operator orchestrates application deployments from Git to Kubernetes. Diego provides presets for configuration across its toolchain, which can be adjusted according to deployment needs.
 
-## Diego empowers engineering teams
+Diego consists of different packs that can be installed altogether or in isolation. There are 3 packs:
+
+- Diego CD Pack
+- Diego Infrastructure Pack
+- Diego Monitoring Pack
 
 > Diego is a self-service platform for engineering teams seeking to deploy and monitor their applications without reliance on cloud platform teams.
 
-Diego empowers: 
+## Diego empowers: 
 
 - Lead Engineers: seeking to confidently onboard their applications for fast and safer deployments.
 
