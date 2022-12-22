@@ -10,11 +10,11 @@ Estimated time: 2 minutes ⏱️
 
 Command will request for:
 
-• Github Organization Name
+● Github Organization Name
 
 - Where your organisation's application repos are hosted.
 
-• Domain Name
+● Domain Name
 
 - e.g. `<your-organisation's-domain>.com`
 
