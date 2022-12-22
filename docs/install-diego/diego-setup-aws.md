@@ -4,7 +4,7 @@ sidebar_position: 7
 
 4. `diego setup aws`
 
-Estimated time: 10 minutes
+Estimated time: 10 minutes ⏱️
 
 > Installs the AWS Cloudformation stack specified in the diego-tooling repo.
 
@@ -14,9 +14,8 @@ Estimated time: 10 minutes
 
 • Once you add these, the command will continue.
 
-
 ```
-amigo-1@TAA0001 diego-cli % aws-vault exec amigo-1 -- diego setup aws   
+amigo-1@TAA0001 diego-cli % aws-vault exec amigo-1 -- diego setup aws
 Creating cloudformation stack diego-stack .....
 
 Please add following NS records where diego.amigo-1.ltd is managed
@@ -41,9 +40,8 @@ Diego AWS setup complete
 
 ![Creating Namespace Record](./img/creating-namespace-record.png)
 
-
 Checks:
 
-✔️ The AWS R53 zone id is updated for the `diego-tooling` repo in `diego-core/external-dns-controller`.yaml.  <br/> 
-✔️ Login to AWS and check cloudformation stack created with IAM resources and a R53 hosted zone <br/> 
+✔️ The AWS R53 zone id is updated for the `diego-tooling` repo in `diego-core/external-dns-controller`.yaml. <br/>
+✔️ Login to AWS and check cloudformation stack created with IAM resources and a R53 hosted zone <br/>
 ✔️ Go to [DNS checker](https://dnschecker.org/) and check that the namespace for `diego.<your organisation's domain>` is replicated around the world.

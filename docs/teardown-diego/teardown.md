@@ -26,7 +26,7 @@ Given you have set-up Diego in an isolated AWS EKS cluster with [these instructi
 
 • `diego-default-project`
 
-• `diego-tooling`
+• **`diego-tooling`**
 
 ## Remove Github app from Github Organisation
 
@@ -43,4 +43,3 @@ Given you have set-up Diego in an isolated AWS EKS cluster with [these instructi
 • Delete Diego helm repo:
 
 `helm repo remove diego`
-

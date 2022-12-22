@@ -4,7 +4,7 @@ sidebar_position: 8
 
 5. `diego install diego-core`
 
- Estimated time: 50 minutes
+Estimated time: 50 minutes ⏱️
 
 > This updates your diego configuration file - $HOME/.diego/config with information required for further steps.
 
@@ -28,7 +28,7 @@ Cluster amigo-1-cluster has been configured successfully
 ArgoCD Admin Password: xxxxxxxxxxxxxx
 ```
 
-•  Monitor resource creation in the Kubernetes cluster with aws context: 
+• Monitor resource creation in the Kubernetes cluster with aws context:
 `aws-vault exec amigo-1 -- kubectl get applications -n argocd --watch`
 
 • Please note it can take up to 1 hour for all resources to become healthy
@@ -66,10 +66,9 @@ aws-lb-controller           OutOfSync     Healthy
 
 Checks:
 
-✔️  Once this is setup, the subdomains related to diego should be accessible on the clients domain e.g. <br/> 
-• `hub.diego.<your organisation's domain>` <br/> 
-• `argocd.diego.<your organisation's domain>` <br/> 
-✔️ Go to [DNS checker](https://dnschecker.org/) to check these domains are accessible <br/> 
-✔️ Check you can login to Argo CD <br/> 
-✔️ Check you can access Diego Hub. 
-
+✔️ Once this is setup, the subdomains related to diego should be accessible on the clients domain e.g. <br/>
+• `hub.diego.<your organisation's domain>` <br/>
+• `argocd.diego.<your organisation's domain>` <br/>
+✔️ Go to [DNS checker](https://dnschecker.org/) to check these domains are accessible <br/>
+✔️ Check you can login to Argo CD <br/>
+✔️ Check you can access Diego Hub.
