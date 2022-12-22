@@ -32,7 +32,7 @@ Given you have set-up Diego in an isolated AWS EKS cluster with [these instructi
 
 • Go to developer-settings and click Github Apps
 
-• Edit the bot diego-<github organisation>-bot
+• Edit the bot `diego-<your github organisation>-bot`
 
 • Click on Advanced in left-hand menu and then the option Delete Github App
 
@@ -40,7 +40,7 @@ Given you have set-up Diego in an isolated AWS EKS cluster with [these instructi
 
 `rm -rf $HOME/.diego`
 
-Delete Diego helm repo:
+• Delete Diego helm repo:
 
 `helm repo remove diego`
 
