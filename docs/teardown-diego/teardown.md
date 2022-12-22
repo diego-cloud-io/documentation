@@ -22,19 +22,21 @@ Given you have set-up Diego in an isolated AWS EKS cluster with [these instructi
 
 ## Here are steps for deleting resources in your Github organisation:
 
-## Delete these repositories in your test Github organisation:
+### Delete these repositories in your test Github organisation:
 
 • `diego-default-project`
 
 • `diego-tooling`
 
-## Remove Github app from Github Organisation
+### Remove Github app from Github Organisation
 
 • Go to developer-settings and click Github Apps
 
 • Edit the bot `diego-<your github organisation>-bot`
 
 • Click on Advanced in left-hand menu and then the option Delete Github App
+
+### Deprecating local conifiguration
 
 • Delete local Diego Config file:
 
