@@ -20,7 +20,7 @@ Check the following are installed locally: <br/>
 • [Go](https://go.dev/dl/) <br/> 
 • [Helm v3](https://helm.sh/docs/intro/install/) - e.g. on mac `brew install helm` <br/> 
 • [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/) - for monitoring resource creation. <br/> 
-• Software to set the aws context for commands - e.g.
+• Software to set the aws context for commands - e.g. <br/> 
 • [aws-vault](https://github.com/99designs/aws-vault) <br/> 
 • [aws configure](https://docs.aws.amazon.com/cli/latest/reference/configure/) <br/> 
 • This can be used to set a aws profile for the AWS account where resources related to Diego CD Pack will be setup. <br/> 
