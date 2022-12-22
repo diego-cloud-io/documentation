@@ -12,17 +12,17 @@ The Cloudformation stack provisions:
 
 ● Various IAM roles related to:
 
-● Continuous Integration
+&nbsp; &nbsp; ○ Continuous Integration
 
-● Diego API
+&nbsp; &nbsp; ○ Diego API
 
-● Diego DNS Controller
+&nbsp; &nbsp; ○ Diego DNS Controller
 
-● Diego Load Balancer Controller
+&nbsp; &nbsp; ○  Diego Load Balancer Controller
 
-● External Secrets Operator
+&nbsp; &nbsp; ○ External Secrets Operator
 
-● IAM OIDC (OpenID Connect) providers for:
+&nbsp; &nbsp; ○ IAM OIDC (OpenID Connect) providers for:
 
 :::info
 

@@ -8,17 +8,17 @@ Given you have set-up Diego in an isolated AWS EKS cluster with [these instructi
 
 ## Here are steps for deleting resources in AWS:
 
-1. Delete Cloudformation stack for node group
+1 Delete Cloudformation stack for node group
 
-2. Delete Cloudformation stack for cluster
+2 Delete Cloudformation stack for cluster
 
-3. Delete Load Balancer under EC2 service
+3 Delete Load Balancer under EC2 service
 
-4. Navigate to AWS Certificate Manager and delete certificate record for the hosted R53 zone namespace
+4 Navigate to AWS Certificate Manager and delete certificate record for the hosted R53 zone namespace
 
-5. Delete all records of the hosted zone in R53
+5 Delete all records of the hosted zone in R53
 
-6. Delete Cloudformation stack for diego-core
+6 Delete Cloudformation stack for diego-core
 
 ## Here are steps for deleting resources in your Github organisation:
 
