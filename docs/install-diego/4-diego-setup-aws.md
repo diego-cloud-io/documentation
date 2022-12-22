@@ -36,9 +36,10 @@ Diego AWS setup complete
 
 ● Here’s an example of how a domain record can be added in AWS Console under R53: <br/>
 
-![Creating Namespace Record](./img/creating-namespace-record.png)
-
 ### Checks:
+
+<img alt="Picture could not load" src="/documentation/assets/images/creating-namespace-record-28d5600c9373f36295dc04328f73810d.jpeg" style={{height:"30rem"}}></img><br/>
+Checks:
 
 ✔️ The AWS R53 zone id is updated for the `diego-tooling` repo in `diego-core/external-dns-controller.yaml`. <br/>
 ✔️ Login to AWS and check cloudformation stack created with IAM resources and a R53 hosted zone <br/>
