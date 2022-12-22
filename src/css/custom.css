@@ -48,7 +48,8 @@
   background-color: #242747;
 }
 a {
-  color: #436209;
+  color: #0098d0;
+  text-decoration: underline;
 }
 h1 {
   font-size: 1.875rem !important/* 30px */;
@@ -61,6 +62,20 @@ h2 {
 h3 {
   font-size: 1.25rem !important/* 20px */;
   line-height: 1.75rem !important/* 28px */;
+}
+code {
+  background-color: #c1c5c9 !important;
+  font-size: 0.875rem !important ; /* 14px */
+  line-height: 1.25rem !important ;
+  color: black !important;
+}
+
+.menu__link {
+  text-decoration: none !important;
+}
+p {
+  font-size: 1.125rem !important; /* 18px */
+  line-height: 1.75rem !important;
 }
 
 [data-theme="dark"] {
