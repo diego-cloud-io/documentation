@@ -33,7 +33,7 @@ function HomepageHeader() {
         applications with GitOps based deployment to Kubernetes using
         pre-configured open-source tooling.
       </span>
-      <p className={clsx("text-2xl", "text-white")}>{siteConfig.tagline}</p>
+      <p className={clsx("text-xl", "text-white")}>{siteConfig.tagline}</p>
     </header>
   );
 }
