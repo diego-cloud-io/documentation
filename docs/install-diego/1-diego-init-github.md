@@ -22,6 +22,8 @@ Executing the diego command will prompt you to add a Github app to your organisa
 
 After this, you will be prompted to install the bot for your organisation.
 
+### Checks:
+
 <img alt="Picture could not load" src="/documentation/assets/images/github_app_image_1-e73ef78aa08e06e8c6e7042046250ec3.png" style={{height:"40rem"}}></img><br/>
 Checks:
 
