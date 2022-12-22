@@ -18,8 +18,8 @@ Diego consists of different packs that can be installed altogether or in isolati
 
 ## Diego empowers: 
 
-- Lead Engineers: seeking to confidently onboard their applications for fast and safer deployments.
+- **Lead Engineers:** seeking to confidently onboard their applications for fast and safer deployments.
 
-- Developers: deploying software daily, with the option to visualise the impact of their code from feature branches in preview environments. 
+- **Developers:** deploying software daily, with the option to visualise the impact of their code from feature branches in preview environments.
 
-- CTOs and Heads of Engineering: who would like a high level strategic summary of deployments in different environments in one place, but also would like the flexibility to drill down for further details.
+- **CTOs and Heads of Engineering:** who would like a high level strategic summary of deployments in different environments in one place, but also would like the flexibility to drill down for further details.
