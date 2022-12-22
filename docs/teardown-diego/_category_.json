@@ -1,6 +1,6 @@
 {
-  "label": "Install Diego",
-  "position": 4,
+  "label": "Teardown Diego",
+  "position": 7,
   "link": {
     "type": "generated-index"
   }
