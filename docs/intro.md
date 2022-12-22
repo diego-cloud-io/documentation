@@ -12,10 +12,10 @@ Diego is based on the GitOps principle that focuses on keeping the deployment sp
 
 > Diego is a self-service platform for engineering teams seeking to deploy and monitor their applications without reliance on cloud platform teams.
 
-Diego empowers: 
+## **Diego empowers: **
 
-- Lead Engineers: seeking to confidently onboard their applications for fast and safer deployments.
+- **Lead Engineers:** seeking to confidently onboard their applications for fast and safer deployments.
 
-- Developers: deploying software daily, with the option to visualise the impact of their code from feature branches in preview environments. 
+- **Developers:** deploying software daily, with the option to visualise the impact of their code from feature branches in preview environments.
 
-- CTOs and Heads of Engineering: who would like a high level strategic summary of deployments in different environments in one place, but also would like the flexibility to drill down for further details.
+- **CTOs and Heads of Engineering:** who would like a high level strategic summary of deployments in different environments in one place, but also would like the flexibility to drill down for further details.

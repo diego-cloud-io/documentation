@@ -8,7 +8,7 @@ sidebar_position: 2
 
 Developers can use **Diego CLI** to interact with **Diego API**
 
-**Diego API** handles information exchanged between the **Diego UI** for the front-end platform and the **Diego Application Controller** for the backend service. 
+**Diego API** handles information exchanged between the **Diego UI** for the front-end platform and the **Diego Application Controller** for the backend service.
 
 ## Diego UI
 
