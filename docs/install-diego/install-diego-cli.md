@@ -1,9 +1,9 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # Install Diego CLI
 
-Install diego for mac:
+Please ensure [prerequisites](../getting-started/prerequisites) are installed for **Diego CLI**, prior to working with the CLI tool.
 
-`brew install diego`
+To be updated with info from Diego-CLI README

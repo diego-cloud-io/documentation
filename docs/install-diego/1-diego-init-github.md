@@ -2,12 +2,12 @@
 sidebar_position: 4
 ---
 
-1. `diego init github`
+# diego init github
 
 Estimated time: 2 minutes ⏱️
 
 > Installs a Github app; a bot which sets up permissions to help implement GitOps by enabling communication between Github and ArgoCD
-
+<br/>
 Command will request for:
 
 ● Github Organization Name

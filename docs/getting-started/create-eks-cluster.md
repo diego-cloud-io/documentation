@@ -2,7 +2,11 @@
 sidebar_position: 2
 ---
 
-# Creating Elastic Kubernetes Service (EKS) cluster in AWS
+# Create AWS Elastic Kubernetes Cluster
+
+Here are some steps for setting up an EKS cluster, with node in your AWS account.
+
+## Prerequisites
 
 Install software to set the aws context for running commands to create cluster- e.g. <br/>
 ● [aws-vault](https://github.com/99designs/aws-vault) <br/>
@@ -11,7 +15,7 @@ Install software to set the aws context for running commands to create cluster- 
 
 Install [eksctl](https://github.com/weaveworks/eksctl) - this is simple CLI tool for creating clusters. Further docs for eksctl are available [here](https://eksctl.io/introduction/#getting-started).
 
-## Creating EKS Cluster with node
+## Set up EKS Cluster
 
 1. Create EKS cluster with aws context: <br/>
 
