@@ -24,8 +24,8 @@ The Cloudformation stack provisions:
 
     • IAM OIDC (OpenID Connect) providers for:
 
-        ° Github Actions - to allow CI pipelines to access resources in cluster
+        ◦ Github Actions - to allow CI pipelines to access resources in cluster
 
-        * IAM Roles for Server Accounts (IRSA) on EKS - establishes a trust relationship between specific external identity provider (IdP) services that support OpenID Connect (OIDC) and your organisation’s AWS account. [More information here](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_create_oidc.html)
+        ◦ IAM Roles for Server Accounts (IRSA) on EKS - establishes a trust relationship between specific external identity provider (IdP) services that support OpenID Connect (OIDC) and your organisation’s AWS account. [More information here](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_create_oidc.html)
 
 • The [3 key components of Diego](./key-components.md) are installed into your AWS EKS cluster, alongside a toolchain of open source tooling which make up Diego-Core.
