@@ -73,9 +73,12 @@ code {
 .menu__link {
   text-decoration: none !important;
 }
-p {
-  font-size: 1.125rem !important; /* 18px */
-  line-height: 1.75rem !important;
+img[alt="Add Github App"] {
+  height: 50rem;
+}
+
+img[alt="Setup AWS image"] {
+  height: 40rem;
 }
 
 [data-theme="dark"] {

@@ -24,7 +24,8 @@ After this, you will be prompted to install the bot for your organisation.
 
 ### Checks:
 
-<img alt="Picture could not load" src="/documentation/assets/images/github_app_image_1-e73ef78aa08e06e8c6e7042046250ec3.png" style={{height:"40rem"}}></img><br/>
+![Add Github App](./img/github_app_image_1.png)
+
 Checks:
 
 ✔️ Navigate to Github apps for your organisation - `https://github.com/settings/apps`. You should see your Github app listed there. <br/>

@@ -38,7 +38,8 @@ Diego AWS setup complete
 
 ### Checks:
 
-<img alt="Picture could not load" src="/documentation/assets/images/creating-namespace-record-28d5600c9373f36295dc04328f73810d.jpeg" style={{height:"30rem"}}></img><br/>
+![Setup AWS image](./img/creating-namespace-record.png)
+
 Checks:
 
 ✔️ The AWS R53 zone id is updated for the `diego-tooling` repo in `diego-core/external-dns-controller.yaml`. <br/>
