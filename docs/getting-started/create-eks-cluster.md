@@ -11,7 +11,7 @@ Here are some steps for setting up an EKS cluster, with node in your AWS account
 Install software to set the aws context for running commands to create cluster- e.g. <br/>
 ● [aws-vault](https://github.com/99designs/aws-vault) <br/>
 ● [aws configure](https://docs.aws.amazon.com/cli/latest/reference/configure/) <br/>
-● This can be used to set a aws profile for the AWS account where resources related to Diego CD Pack will be setup. <br/>
+● This can be used to set a aws profile for the AWS account where resources related to Diego core Pack will be setup. <br/>
 
 Install [eksctl](https://github.com/weaveworks/eksctl) - this is simple CLI tool for creating clusters. Further docs for eksctl are available [here](https://eksctl.io/introduction/#getting-started).
 

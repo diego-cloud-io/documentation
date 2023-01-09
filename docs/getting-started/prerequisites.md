@@ -25,7 +25,7 @@ Check the following are installed locally: <br/>
 Additionally, please install software to set the aws context for commands - e.g. <br/>
 ● [aws-vault](https://github.com/99designs/aws-vault) <br/>
 ● [aws configure](https://docs.aws.amazon.com/cli/latest/reference/configure/) <br/>
-● This can be used to set a aws profile for the AWS account where Diego CD Pack resources will be setup. <br/>
+● This can be used to set a aws profile for the AWS account where Diego Core Pack resources will be setup. <br/>
 
 ## Important
 

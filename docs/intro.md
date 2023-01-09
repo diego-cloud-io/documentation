@@ -4,22 +4,32 @@ sidebar_position: 1
 
 # Meet Diego ♾️
 
-Diego is a fully integrated platform which aims to streamline the development process and improve cycle times for delivering software. Diego integrates a set of best practices for DevOps and a comprehensive suite of open source tooling for security, scaling and resiliency.
+Diego is an integrated platform which streamlines the software development process with easier managemeent of cloud infrastructure and application deployments workflows. It improves cycle times for delivering change to production. 
 
-Diego is based on the GitOps principle that focuses on keeping the deployment specification and application desired state in Git. The project’s special GitOps operator orchestrates application deployments from Git to Kubernetes. Diego provides presets for configuration across its toolchain, which can be adjusted according to deployment needs.
+Diego consist of an easy to use UI called **hub**, custom kubernetes operators along with a pre-configured collection of open source tooling for building, deploying and moniotoring microservices on Kubernetes. The platform implements set of industry best practices and has an open architecture making it extensibile, as needed. 
 
-Diego consists of different packs that can be installed altogether or in isolation. There are 3 packs:
+Diego is based on the GitOps principle that focuses on keeping the infrastructure definitions and application deployment specifications in Git. The built-in application controller, implemented as Kubernetes operator, orchestrates application deployments from Git to Kubernetes and provides version management, approval gates. Diego provides presets for configuration across its toolchain to get you started, which can be adjusted according to deployment needs.
 
-● Diego CD Pack <br/>
-● Diego Infrastructure Pack <br/>
-● Diego Monitoring Pack <br/>
+Diego is designed to be modular and can be installed just as its core or including all constituent parts together. Following represent different packs:
 
-> Diego is a self-service platform for engineering teams seeking to deploy and monitor their applications without reliance on cloud platform teams.
+● Core pack - This provides all the core Diego components that deliver basic CD tooling and process orchestration <br/>
+● Infrastructure Pack - This pack further enhances the core setup and enables management of cloud infrastructure components<br/>
+● Monitoring Pack - This pack consists of necessary tooling and configuration required for monitoring services on Kubernetes.<br/>
+
+> Diego is designed to be a self-service platform for engineering teams seeking to deploy and monitor their applications without reliance on cloud platform teams.
 
 ## Diego empowers: 
 
-●  **Lead Engineers:** seeking to confidently onboard their applications for fast and safer deployments.
+●  **Lead Engineers:** seeking to confidently onboard their applications for faster and safer deployments.
 
 ●  **Developers:** deploying software daily, with the option to visualise the impact of their code from feature branches in preview environments.
 
-●  **CTOs and Heads of Engineering:** who would like a high level strategic summary of deployments in different environments in one place, but also would like the flexibility to drill down for further details.
+●  **CTOs and Heads of Engineering:** wanting to join up the dots and ensure that their cloud setup is structured, well-designed and free from sprawl. 
+
+## Diego in a Nutshell: 
+
+●  **Pre-configured** and fully integrated set of open-source tools
+●  **Declarative** model for infrastructure provisioning and application deployment across environments
+●  **Standardised** logging, metric and trace collection
+●  **Pre-configured** scalable, reliable and resilient Kubernetes cluster
+●  **Sleek** developer experience with deploymnet feedback delivered straight to Github, along with a single consolidated UI for visualising the value stream.
