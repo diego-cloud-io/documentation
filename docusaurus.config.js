@@ -27,24 +27,24 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
-  stylesheets: [
-    {
-      href: "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css",
-    },
-  ],
-  plugins: [
-    async function myPlugin(context, options) {
-      return {
-        name: "docusaurus-tailwindcss",
-        configurePostCss(postcssOptions) {
-          // Appends TailwindCSS and AutoPrefixer.
-          postcssOptions.plugins.push(require("tailwindcss"));
-          postcssOptions.plugins.push(require("autoprefixer"));
-          return postcssOptions;
-        },
-      };
-    },
-  ],
+  // stylesheets: [
+  //   {
+  //     href: "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css",
+  //   },
+  // ],
+  // plugins: [
+  //   async function myPlugin(context, options) {
+  //     return {
+  //       name: "docusaurus-tailwindcss",
+  //       configurePostCss(postcssOptions) {
+  //         // Appends TailwindCSS and AutoPrefixer.
+  //         postcssOptions.plugins.push(require("tailwindcss"));
+  //         postcssOptions.plugins.push(require("autoprefixer"));
+  //         return postcssOptions;
+  //       },
+  //     };
+  //   },
+  // ],
   presets: [
     [
       "classic",
