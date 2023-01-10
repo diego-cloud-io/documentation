@@ -4,21 +4,25 @@ sidebar_position: 1
 
 # Diego Core Pack Overview 
 
-Diego core pack provides all the necessary foundations needed for implementing a high performance software development process. These foundations are installed onto a Kubernetes cluster.
+Diego Core pack provides all the necessary foundations needed for implementing a high performance software development process. These foundations are installed onto a Kubernetes cluster.
 
-Diego Core Pack installation deploys following 2 broad categories of softwares into your AWS Kubernetes cluster: 
+**Diego Core Pack installation deploys 2 broad categories of software into your AWS Kubernetes cluster**: 
 
 ## Open source tooling components
 
-The primary open source tool at heart of Diego is [Argo CD](https://argo-cd.readthedocs.io/en/stable/) > Declarative, GitOps continuous delivery tool for Kubernetes. Some of the secondary tooling deployed are: 
+The primary open source tool at heart of Diego is [Argo CD](https://argo-cd.readthedocs.io/en/stable/).  Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. Some of the secondary tooling deployed are: 
 
-● [AWS Load Balancer Controller plugin for Kubernetes](https://kubernetes-sigs.github.io/aws-load-balancer-controller/v2.4/) > Helps manage Elastic Load Balancers for a Kubernetes cluster.
+● [AWS Load Balancer Controller plugin for Kubernetes](https://kubernetes-sigs.github.io/aws-load-balancer-controller/v2.4/) <br/>
+&nbsp; &nbsp; ○ Helps manage Elastic Load Balancers for a Kubernetes cluster.
 
-● [External DNS](https://github.com/kubernetes-sigs/external-dns) > Enables Diego to do URL manage URL structuring the assigned delegated zone and  Synchronizes exposed Kubernetes Services and Ingresses with DNS providers.
+● [External DNS](https://github.com/kubernetes-sigs/external-dns) <br/>
+&nbsp; &nbsp; ○ Enables Diego to do URL manage URL structuring the assigned delegated zone and  Synchronizes exposed Kubernetes Services and Ingresses with DNS providers.
 
-● [Dex](https://github.com/dexidp/dex) > Dex is an identity service that uses OpenID Connect to drive authentication for other apps.
+● [Dex](https://github.com/dexidp/dex) <br/>
+&nbsp; &nbsp; ○ Dex is an identity service that uses OpenID Connect to drive authentication for other apps.
 
-● [external secret operator](https://external-secrets.io/v0.7.0/) > Reads secrets from external APIs with secret providers and automatically injects the values into a into Kubernetes secret.
+● [external secret operator](https://external-secrets.io/v0.7.0/) <br/>
+&nbsp; &nbsp; ○ Reads secrets from external APIs with secret providers and automatically injects the values into a into Kubernetes secret.
 
 
 ## Diego custom components
