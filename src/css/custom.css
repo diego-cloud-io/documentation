@@ -75,6 +75,7 @@ code {
 }
 img[alt="Add Github App"] {
   height: 50rem;
+  width: 30rem;
 }
 
 img[alt="Setup AWS image"] {
