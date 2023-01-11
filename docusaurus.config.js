@@ -80,10 +80,8 @@ const config = {
           srcDark: "img/logoDark.svg",
         },
       },
-
       footer: {
         style: "dark",
-
         copyright: `Copyright © ${new Date().getFullYear()} Tech Amigos Ltd, Built with Docusaurus.`,
       },
       prism: {
