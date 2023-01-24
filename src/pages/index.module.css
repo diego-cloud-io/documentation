@@ -1,0 +1,12 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+.body {
+  overflow: hidden;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

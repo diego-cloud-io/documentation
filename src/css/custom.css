@@ -1,0 +1,99 @@
+.tailwind {
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  @tailwind screens;
+}
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: rgb(169, 198, 225);
+  --ifm-color-primary-dark: #83c011;
+  --ifm-color-primary-darker: #63910d;
+  --ifm-color-primary-darkest: #436209;
+  --ifm-color-primary-light: #b3ef43;
+  --ifm-color-primary-lighter: #c4f26d;
+  --ifm-color-primary-lightest: #d5f698;
+  --ifm-code-font-size: 95%;
+  --ifm-font-family-base: "Outfit", Helvetica, Arial, Lucida, sans-serif;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+.navbar {
+  background-color: #242747;
+  height: 5rem;
+  display: flex !important;
+  text-align: center !important;
+}
+.navbar--fixed-top {
+  background-color: #242747;
+  display: flex !important;
+  text-align: center !important;
+}
+.navbar__items {
+  display: flex !important;
+  text-align: center !important;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+}
+.footer {
+  background-color: #242747;
+}
+.footer--dark {
+  background-color: #242747;
+}
+a {
+  color: #0098d0;
+  text-decoration: underline;
+}
+h1 {
+  font-size: 1.875rem !important/* 30px */;
+  line-height: 2.25rem !important/* 36px */;
+}
+h2 {
+  font-size: 1.5rem !important/* 24px */;
+  line-height: 2rem !important/* 32px */;
+}
+h3 {
+  font-size: 1.25rem !important/* 20px */;
+  line-height: 1.75rem !important/* 28px */;
+}
+code {
+  background-color: #c1c5c9 !important;
+  font-size: 0.875rem !important ; /* 14px */
+  line-height: 1.25rem !important ;
+  color: black !important;
+}
+
+.menu__link {
+  text-decoration: none !important;
+}
+img[alt="Add Github App"] {
+  height: 50rem;
+  width: 30rem;
+}
+
+img[alt="Setup AWS image"] {
+  height: 40rem;
+}
+
+[data-theme="dark"] {
+  --ifm-color-primary: #83c011;
+  --ifm-color-primary-dark: #83c011;
+  --ifm-color-primary-darker: #63910d;
+  --ifm-color-primary-darkest: #436209;
+  --ifm-color-primary-light: #b3ef43;
+  --ifm-color-primary-lighter: #c4f26d;
+  --ifm-color-primary-lightest: #d5f698;
+  --ifm-code-font-size: 95%;
+  --ifm-font-family-base: "Outfit", Helvetica, Arial, Lucida, sans-serif;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
