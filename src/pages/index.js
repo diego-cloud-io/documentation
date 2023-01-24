@@ -89,7 +89,7 @@ export default function Home() {
               title="Troubleshooting"
               subTitle={troubleshootingSubTitle}
               icon="las la-info-circle"
-              url="/docs/troubleshooting/introduction"
+              url="/docs/troubleshooting/faqs"
             ></Card>
           </div>
         </main>

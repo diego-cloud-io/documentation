@@ -7,7 +7,7 @@ title: "Support"
 ## Diego Support
 
 - Please read the troubleshooting [FAQs](../troubleshooting/faqs.md)
-- Found a bug? Email us - [heyamigo@techamigos.co](heyamigo@techamigos.co)
+- Found a bug? Email us - [heyamigo@techamigos.co](mailto:heyamigo@techamigos.co)
 - Feel free to reach out to us on the Diego [slack channel](https://diego-egy3980.slack.com)
 
 ## AWS Support
