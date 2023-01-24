@@ -1,0 +1,49 @@
+name: Deploy to GitHub Pages
+# reference: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
+on:
+  push:
+    tags:
+      - "*"
+
+jobs:
+  sync:
+    if: github.repository == 'diego-cloud-io/documentation-internal'
+    runs-on: ubuntu-latest
+    name: Git Repo Sync
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+        persist-credentials: false
+    - uses: wangchucheng/git-repo-sync@v0.1.0
+      with:
+        # Such as https://github.com/wangchucheng/git-repo-sync.git
+        target-url: ${{ secrets.SYNC_TARGET_URL }}
+        # Such as wangchucheng
+        target-username: ${{ secrets.SYNC_TARGET_USERNAME }}
+          # You can store token in your project's 'Setting > Secrets' and reference the name here. Such as ${{ secrets.ACCESS\_TOKEN }}
+        target-token: ${{ secrets.SYNC_TARGET_TOKEN }}
+
+
+  build-and-deploy:
+    if: github.repository == 'diego-cloud-io/documentation'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      - name: Checkout repo and setup node 🛎️
+        uses: actions/checkout@v3
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '19'
+      - name: Install and build 🔧
+        run: |
+          yarn
+          yarn build
+      - name: Deploy to GitHub Pages 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: ./build
